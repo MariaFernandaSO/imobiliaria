@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,300&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+/* font-family: 'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*font-family: 'Abel', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+/*#323644
+#737683*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalho*/
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+figcaption{
+    display: none;
+}
+header figure img{
+    margin-top: 20px;
+}
+/*Menu de links*/
+header nav ul{
+    display: flex;
+    margin-top: 30px;
+}
+header nav ul li{
+    padding-left: 20px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #0B3966;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+header nav ul li a:hover{
+    color: #5C89B5;
+    transition: 0.5s;
+}
+/*Corpo do site*/
+.empresa{
+    background-color: #0B3966;
+    padding: 80px 0px;
+    color: #f2f2f2;
+}
+.empresa h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.empresa h4{
+    text-align: center;
+    padding: 14px 0px 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+.empresa article{
+    max-width: 900px;
+    margin: 0 auto;
+    text-justify: auto;
+    text-indent: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+/*Parte do trabalho*/
+.trabalho{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px 0px 0px;
+}
+.trabalho_texto{
+    max-width: 600px;
+}
+.trabalho_texto h2{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.trabalho_texto p{
+    text-indent: 10px;
+    text-justify: auto;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+.img_caixa{
+    margin-top: 40px;
+}
+.title{
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+    color: #0B3966;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+/*Parte do fundador*/
+.fundador{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 0px 0px;
+}
+.fundaTitle{
+    max-width: 600px;
+}
+
+.fundaTitle h2{
+    margin: 20px 0px;
+}
+.fundaTitle h4{
+    margin: 10px 0px 20px 0px;
+}
+.fundaTitle p{
+    text-indent: 10px;
+    text-justify: auto;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+/*Rodape*/
+.rodape{
+    background-color: #323644;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 60px;
+}
+.rodape h3{
+    color: #737683;
+    padding: 80px 0px 40px 140px;
+}
+.rodape_secao{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.rodape_caixa p, address{
+    color: #737683;
+}
+.copy{
+    padding: 40px 0px 0px 140px;
+    color: #737683;
+}
+
+@media (max-width: 800px){
+    .fundador, .trabalho{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 454px){
+    .menu{
+        display: none;
+    }
+}
+@media (max-width: 640px){
+    .rodape_secao{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .rodape h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+/*Parte da página HTML serviços*/
+.conteudo{
+    background-color: #f2f2f2;
+}
+.color{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.one_casa{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.one_casa div{
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.one_casa div h3{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.one_casa div p{
+    max-width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.imgCaixas{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 634px){
+    .one_casa{
+        display: flex;
+        flex-direction: column;
+    }
+    .one_casa div{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}

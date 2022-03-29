@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+/*#323644
+#737683*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Cabeçalho*/
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+figcaption{
+    display: none;
+}
+header figure img{
+    margin-top: 20px;
+}
+/*Menu de links*/
+header nav ul{
+    display: flex;
+    margin-top: 30px;
+}
+header nav ul li{
+    padding-left: 20px;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #0B3966;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+header nav ul li a:hover{
+    color: #5C89B5;
+    transition: 0.5s;
+}
+/*Corpo da página*/
+main{
+    margin-top: 20px;
+}
+/*Imagem do começo do site*/
+.conteudo figure img{
+    width: 100%;
+    height: 20vw;
+}
+/*Conheça nossa empresa*/
+.about{
+    background-color: #0B3966;
+    padding: 80px 0px 80px;
+}
+.about_texto{
+    border: 1px solid transparent;
+    max-width: 600px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.about .about_texto h3{
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.about .about_texto article{
+    padding: 10px 0px 30px;
+    text-indent: 10px;
+    text-justify: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.about .about_texto a{
+    text-decoration: none;
+    border: 1px solid #0B3966;
+    padding: 14px 26px;
+    color: #0B3966;
+    font-family: 'Roboto', sans-serif;
+}
+main section div a:hover{
+    background-color: #0B3966;
+    color: white;
+    transition: 0.5s;
+}
+/*Imoveis a venda*/
+.sell section{
+    display: flex;
+}
+.sell h2{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.sell section div{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.sell section div h3{
+    padding: 10px 0px;
+}
+.sell section div h4{
+    color: #0B3966;
+}
+.sell section div p{
+    padding: 14px 0px ;
+    margin-bottom: 20px;
+}
+.sell section div a{
+    text-decoration: none;
+    border: 1px solid #0B3966;
+    padding: 12px 20px;
+    color: #0B3966;
+    font-family: 'Roboto', sans-serif;
+}
+.sell section div a:hover{
+    background-color: #0B3966;
+    color: white;
+    transition: 0.5s;
+}
+.title_two{
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #0B3966;
+
+}
+/*Apartamentos*/
+.ap{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: #0B3966;
+    padding: 60px 0px;
+}
+.ap_alugar{
+    padding-right: 60px;
+    max-width: 600px;
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    text-justify: auto;
+}
+.hidden{
+    display: none;
+}
+.ap_alugar h3{
+    padding: 20px 0px;
+}
+.ap_alugar h4{
+    padding-bottom: 20px;
+}
+.ap_alugar p{
+    padding-bottom: 20px;
+}
+.ap_two{
+    background-color: #2A4E85;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid transparent;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0px;
+    
+}
+.ap_alugarTwo{
+    padding-right: 60px;
+    max-width: 600px;
+    color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    text-justify: auto;
+    margin-left: 60px;
+}
+.ap_alugarTwo h3{
+    padding: 20px 0px;
+}
+.ap_alugarTwo h4{
+    padding-bottom: 20px;
+}
+.ap_alugarTwo p{
+    padding-bottom: 20px;
+}
+.hidden_two{
+    display: none;
+}
+/*Requisitos da empresa*/
+.requisitos{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.requisitos_list img{
+    padding-bottom: 20px;
+}
+.requisitos_list p{
+    max-width: 300px;
+    margin-top: 10px;
+}
+/*opnion clientes*/
+.opnion{
+    margin-top: 60px;
+    background-image: url(../img/opini1.jpg);
+    background-position: center center;
+    padding: 160px 0px;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    text-justify: auto;
+}
+.opnion h2{
+    text-align: center;
+    padding-bottom: 100px;
+    color: #F2F2F2;
+}
+.opnio_caixa{
+    display: flex;
+    justify-content: space-evenly;
+}
+.opnion_one{
+    max-width: 200px;
+    text-align: center;
+
+}
+.opnion_one p{
+    color: #F2F2F2;
+    margin-bottom: 16px;
+}
+.opnion_one h3{
+    color: #CBB492;
+}
+
+.rodape{
+    background-color: #323644;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 60px;
+}
+.rodape h3{
+    color: #737683;
+    padding: 80px 0px 40px 140px;
+}
+.rodape_secao{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.rodape_caixa p, address{
+    color: #737683;
+}
+.copy{
+    padding: 40px 0px 0px 140px;
+    color: #737683;
+}
+
+
+.conteudo_formu{
+    border: 1px solid transparent;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/formulario.jpg);
+}
+.formulario{
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
+.formulario p{
+    padding-top: 10px;
+}
+.formulario p label{
+    color: #F2F2F2;
+}
+.formulario p textarea{
+    padding: 8px 38px;
+}
+.formulario p input{
+    padding: 2px 34px;
+}
+.botao{
+    margin-top: 14px;
+    padding: 4px 18px;
+    background-color: #0B3966;
+    color: #F2F2F2;
+    border: 1px solid #0B3966;
+}
+@media (max-width: 690px){
+    .ap{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid transparent;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .ap_two{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid transparent;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 640px){
+    .rodape_secao{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .rodape h3{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 636px){
+    .opnio_caixa{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media (max-width: 800px){
+    .sell section, .workers, .rodape, .requisitos{
+        display: flex;
+        flex-direction: column;
+    }
+    .requisitos_list{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 454px){
+    .menu{
+        display: none;
+    }
+}
+@media (max-width: 400px){
+    .img{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+    }
+    .hidden_two{
+        display: flex;
+    }
+
+}
